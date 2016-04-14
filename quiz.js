@@ -3,7 +3,7 @@ var correct = 0; //initial score
 var a1 = prompt("What is the capital of Missouri?");
 if ( a1.toUpperCase() === 'JEFFERSON CITY' ) {
  correct += 1;
- document.write("<p>That's right! The capital of Missouri is Jefferson City. </p>");
+ document.write("<p>That's right! The capital of Missouri is Jefferson City.</p>");
 }
 else {
   document.write("<p>Sorry, that's incorrect. The capital of Missouri is Jefferson City.</p>");
@@ -30,8 +30,7 @@ else {
 var a4 = prompt("What is the name of America's favorite sweet treat, which was first invented in Missouri?");
 if ( a4.toUpperCase() === 'ICE CREAM CONE' ) {
  correct += 1;
-}
-document.write("<p>That's right! The ice cream cone was invented in Missouri at the St. Louis World's Fair in 1904.</p>");
+ document.write("<p>That's right! The ice cream cone was invented in Missouri at the St. Louis World's Fair in 1904.</p>");
 }
 else {
  document.write("<p>Sorry, that's incorrect. The ice cream cone was invented in Missouri at the St. Louis World's Fair in 1904.</p>");
@@ -40,8 +39,7 @@ else {
 var a5 = prompt("What is the best-known Missouri monument that also happens to hold a world record? ");
 if ( a5.toUpperCase() === 'JAVASCRIPT' ) {
  correct += 1;
-}
-document.write("<p>That's right! The Gateway Arch in St. Louis currently holds the record of being the world's tallest arch.</p>");
+ document.write("<p>That's right! The Gateway Arch in St. Louis currently holds the record of being the world's tallest arch.</p>");
 }
 else {
  document.write("<p>Sorry, that's incorrect. The Gateway Arch in St. Louis currently holds the record of being the world's tallest arch.</p>");
