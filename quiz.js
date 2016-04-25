@@ -45,8 +45,6 @@ else {
  document.write("<p>Sorry, that's incorrect. The Gateway Arch in St. Louis currently holds the record of being the world's tallest arch.</p>");
 }
 
-
-
 // output results
 document.write("<p>You got " + correct + " out of 5 questions correct.<p>");
 
